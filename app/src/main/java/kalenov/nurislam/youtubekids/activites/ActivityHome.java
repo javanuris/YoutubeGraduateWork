@@ -52,7 +52,7 @@ public class ActivityHome extends AppCompatActivity {
         }
         AccountHeader accountHeader = new AccountHeaderBuilder()
                 .withActivity(this)
-                .withHeaderBackground(R.drawable.edu)
+                .withHeaderBackground(R.drawable.header)
                 .build();
         drawer = new DrawerBuilder(this)
                 .withActivity(ActivityHome.this)
